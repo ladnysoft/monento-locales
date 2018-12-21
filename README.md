@@ -1,6 +1,6 @@
 # Monento Locales
 
-This repository contains localisation resources for [Monento](https://monento.com) – a cross-platform app for tracking personal finances with encrypted data syncing.
+Localisation resources for [Monento](https://monento.com) – a cross-platform app for tracking personal finances.
 
 You are welcome to contribute a new translation and fix mistakes in existent messages. 
 
@@ -23,14 +23,14 @@ Where:
 
 ## Editing Files
 
-Locale files are plain JSON files and can be edited directly by a text editor or Github's online editor for quick fixes (we are using 2-space formatting for JSON).
+Locale files are plain JSON files and can be edited directly by a text editor or Github's online editor for quick fixes.
 
 However it is more convenient to use [i18n-editor](https://github.com/jcbvm/i18n-editor) – it is a cross-platform GUI editor running on Java 8:
 
 - Follow [instructions](https://github.com/jcbvm/i18n-editor#requirements) and install at least **2.0.0-beta.1** version from its [releases](https://github.com/jcbvm/i18n-editor/releases) page.
 - Open the editor and import `locales` directory as a new project.
 
-*Note*: Start the editor by `java -jar i18n-editor.jar` command in a terminal in case it cannot be launched by its binary files.
+*Note:* Start the editor by `java -jar i18n-editor.jar` command in a terminal in case it cannot be launched by its binary files.
 
 ## Guidelines
 
@@ -48,11 +48,14 @@ However it is more convenient to use [i18n-editor](https://github.com/jcbvm/i18n
 
 ## Contributors
 
-You can add yourself to `contrubutors.json` file while making changes. People from the file will be listed in the application in alphabetical order.
+Please can add yourself to `contributors` list of  `package.json` file while making changes. People from the list will be displayed by the application in an attribution section for the translations. 
 
-Fields:
+Supported [fields](https://docs.npmjs.com/files/package.json#people-fields-author-contributors):
 
 * `name` – required field
 * `email` – optional field
 * `url` – optional field
 
+## License
+
+[MIT](LICENSE)
