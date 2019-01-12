@@ -326,7 +326,7 @@
   "i18n.pages.accountDeleteDialog.confirmAccountDeletion": "Удалить \"{accountName}\"?",
   "i18n.pages.accountDeleteDialog.confirmAccountsDeletion": "Удалить {count, plural, one{# счёт} few{# счёта} other{# счетов}}?",
   "i18n.pages.accountDeleteDialog.deletingWaitMessage": "Удаление...",
-  "i18n.pages.accountDeleteDialog.operationsMustBeMovedText": "{count, plural, =1{Удаляемый счёт содержит} other{Удаляемые счета содержат}} операции, которые должны быть переназначены перед удалением.",
+  "i18n.pages.accountDeleteDialog.operationsMustBeMovedText": "{count, plural, =1{Удаляемый счёт содержит} other{Удаляемые счета содержат}} операции, которые должны быть перемещены.",
   "i18n.pages.accountDeleteDialog.targetAccountLabel": "Счёт-приемник",
   "i18n.pages.accountDeleteDialog.warnAboutDeletingSubAccounts": "Дочерние счета будут также удалены.",
   "i18n.pages.accountEdit.accountPageTitle": "Счёт",
